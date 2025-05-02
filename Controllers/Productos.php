@@ -221,6 +221,7 @@ class Productos extends Controllers
 		
 		$idProducto = intval($idProducto);
 		$tallas = $this->model->getTallasDisponibles($idProducto);
+	
 		// Debug para verificar tallas
 		echo "<pre>";
 		print_r($_POST);

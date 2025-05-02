@@ -119,7 +119,9 @@ $infoTerminos = !empty(getInfoPage(PTERMINOS)) ? getInfoPage(PTERMINOS)['conteni
 			</div>
 			<div class="modal-body">
 				<div class="page-content">
-				<img src="<?= media() ?>/images/qrnequi.png" alt="QR NEQUI" >
+					<p>Aquí puedes agregar todo el contenido de tus términos y condiciones directamente en HTML.</p>
+					<p>Por ejemplo, puedes detallar las reglas, políticas de devolución, uso de datos, etc.</p>
+					<p>Es importante que los términos y condiciones sean claros y fáciles de entender.</p>
 				</div>
 			</div>
 			<div class="modal-footer">
@@ -364,8 +366,7 @@ $infoTerminos = !empty(getInfoPage(PTERMINOS)) ? getInfoPage(PTERMINOS)['conteni
 										<input type="radio" id="contraentrega" class="methodpago" name="payment-method"
 											value="CT">
 											<div>
-												<a href="#" data-toggle="modal" data-target="#modalqr1"> 
-													<img
+												<a href="#" data-toggle="modal" data-target="#modalqr1"> <img
 														src="<?= media() ?>/images/nequi-logo.webp" alt="Icono del Banco" width="70"
 														height="50"> </a>
 												<a href="#" data-toggle="modal" data-target="#modalqr2"> <img
